@@ -16,6 +16,15 @@ body {
     padding: 38px;
 }
 
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Adjust as necessary */
+}
+
+
 .left-side {
     display: flex;
 }
