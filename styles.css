@@ -3,6 +3,7 @@ body {
     margin: 0;
     background-color: #fdf3e7; /* Warm beige */
     color: #333333; /* Dark charcoal for text */
+    text-align: center; /* Center-align all text */
 }
 
 .container {
@@ -12,9 +13,9 @@ body {
 
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
-    padding: 20px; /* Adjusted padding for better responsiveness */
-    flex-wrap: wrap; /* Ensure navigation wraps on smaller screens */
+    justify-content: center; /* Center-align nav items */
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .centered-text {
@@ -22,11 +23,12 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100%; /* Adjust as necessary */
+    height: 100%;
 }
 
 .left-side, .right-side {
     display: flex;
+    justify-content: center; /* Center-align left and right side items */
 }
 
 .nav-wrapper > .left-side > div {
@@ -66,7 +68,7 @@ body {
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
-    gap: 20px; /* Space between items */
+    gap: 20px;
 }
 
 .portfolio-item-wrapper {
@@ -117,6 +119,7 @@ body {
 .two-column-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: center; /* Center-align text in two columns */
 }
 
 .profile-image-wrapper img {
@@ -125,6 +128,7 @@ body {
 
 .profile-content-wrapper {
     padding: 30px;
+    text-align: center; /* Center-align profile content */
 }
 
 .profile-content-wrapper h1 {
@@ -163,4 +167,3 @@ body {
         padding: 15px;
     }
 }
-
