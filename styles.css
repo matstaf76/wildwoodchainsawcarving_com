@@ -1,6 +1,8 @@
 body {
     font-family: "Lato", sans-serif;
     margin: 0px;
+    background-color: #fdf3e7; /* Warm beige */
+    color: #333333; /* Dark charcoal for text */
 }
 
 .container {
@@ -35,11 +37,11 @@ body {
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ff5733; /* Energetic orange-red */
 }
 
 .active-nav-link a {
-    color: black !important;
+    color: #ff5733 !important; /* Energetic orange-red */
 }
 
 .nav-link-wrapper a {
@@ -49,11 +51,11 @@ body {
 }
 
 .nav-link-wrapper:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ff5733; /* Energetic orange-red */
 }
 
 .nav-link-wrapper a:hover {
-    color: black;
+    color: #ff5733; /* Energetic orange-red */
 }
 
 .portfolio-items-wrapper {
@@ -97,7 +99,7 @@ body {
 }
 
 .img-text-wrapper:hover .subtitle {
-    color: lightseagreen;
+    color: #ffdd57; /* Bright yellow */
     font-weight: 600;
 }
 
@@ -120,11 +122,12 @@ body {
 }
 
 .profile-content-wrapper h1 {
-    color: lightseagreen;
+    color: #ff5733; /* Energetic orange-red */
 }
-.footer{
-	text-align: center;
-	background: black;
-	color: yellow;
-	font-weight: bold;
+
+.footer {
+    text-align: center;
+    background: #347b98; /* Deep teal */
+    color: #fdf3e7; /* Warm beige */
+    font-weight: bold;
 }
